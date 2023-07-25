@@ -1,0 +1,129 @@
+<div class="leaguescup-fixture-results">
+    <div class="leaguescup-home-league">
+        <div class="leaguescup-home-team-name">
+            <h4>Μελαγγούρι</h4>
+            <img src="https://scoremasters.gr/wp-content/uploads/2022/04/melaggouri.png" class="scm-leaguescup-leaguelogo"></img>
+                <div><div class="leaguescup-player-name">Φραγκίσκος Σαγκινέτος</div>
+                <div class="leaguescup-player-score">32</div>
+            </div>
+        </div>
+    </div>
+    <div class="leaguescup-scoreboard">
+        <span class="leaguescup-home-score">74</span>
+        <span class="vs">-</span>
+        <span class="leaguescup-away-score">86</span>
+    </div>
+    <div class="leaguescup-away-league">
+        <div class="leaguescup-home-team-name">
+            <h4>Roligans</h4>
+            <img src="https://scoremasters.gr/wp-content/uploads/2022/04/melaggouri.png" class="scm-leaguescup-leaguelogo"></img>
+            <div class="leaguescup-player-name">Φραγκίσκος Σαγκινέτος</div>
+            <div class="leaguescup-player-score">32</div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .leaguescup-fixture-results {
+        display:flex;
+        justify-content:space-around;
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    .leaguescup-home-league {
+        color: #fff;
+        width: 40%;
+        background-color: var( --e-global-color-c15c190 );
+        display: flex;
+        padding: 30px 80px 0px 30px;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 24px;
+    }
+
+    .leaguescup-away-league {
+        color: #fff;
+        width: 40%;
+        background-color: var( --e-global-color-c15c190 );
+        display: flex;
+        padding: 30px 80px 0px 30px;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 24px;
+    }
+
+    span.leaguescup-home-score , span.leaguescup-away-score {
+        color: var( --e-global-color-accent );
+        font-family: var( --e-global-typography-c8c68e1-font-family ), Sans-serif;
+        font-size: var( --e-global-typography-secondary-font-size );
+        font-weight: var( --e-global-typography-c8c68e1-font-weight );
+        text-transform: var( --e-global-typography-c8c68e1-text-transform );
+        line-height: var( --e-global-typography-c8c68e1-line-height );
+        letter-spacing: var( --e-global-typography-c8c68e1-letter-spacing );
+        word-spacing: var( --e-global-typography-c8c68e1-word-spacing );
+    }
+</style>
+
+
+
+
+<style>
+
+.week-score {
+display: flex;
+background-color: var( --e-global-color-c15c190 );
+padding: 8px;
+color: #fff;
+justify-content: center;
+border-bottom: 2px solid #E1C983;
+}
+
+.week-score-home , .week-score-away {
+height:50px;
+width: 50px;
+background:#0A1015;
+display: flex;
+justify-content: center;
+}
+
+.week-score-home h4, .week-score-away h4{
+margin:0px;
+
+}
+
+.week-score {
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-evenly;
+align-items: baseline;
+}
+
+.week-number {
+color:#848484;
+}
+
+@media only screen and (max-width: 600px)
+{
+.scm-leaguescup-headsup-away h3 {
+font-size: 16px !important;
+text-align: right !important;
+}
+
+.scm-leaguescup-headsup-away {
+ padding: 10px 20px 0px 80px;
+}
+
+.scm-leaguescup-headsup-home h3 {
+font-size: 16px !important;
+text-align: left !important;
+}
+.scm-leaguescup-headsup-home {
+padding: 16px;
+margin:  0px 16px 0px 16px;
+}
+
+.fixture-results {
+margin-bottom: 4em;  
+}
+}
